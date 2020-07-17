@@ -42,7 +42,7 @@ ENV APACHE_RUN_GROUP www-data
 ENV APACHE_PID_FILE /var/run/apache2.pid
 
 #Expose ports
-EXPOSE 80
+EXPOSE 5000
 
 #Start services
 CMD /usr/sbin/apache2ctl -D FOREGROUND
